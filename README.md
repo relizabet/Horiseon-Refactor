@@ -16,9 +16,9 @@ THEN I find a concise, descriptive title
 
 ## To Do
 
-[] create alt text
+[] create alt text for all images
 [x] correct website name
-[] make links change color on hover
+[x] make links change color on hover
 [x] create nav tag for navigation bar
 [] resolve id's not being in css?
 [] make horiseon title an img?
