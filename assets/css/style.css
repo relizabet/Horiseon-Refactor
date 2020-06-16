@@ -17,7 +17,6 @@ body {
   color: #ffffff;
 }
 
-/* commenting out to test logo pic as an alternative
 .header h1 {
   display: inline-block;
   font-size: 48px;
@@ -26,14 +25,12 @@ body {
 .header h1 .seo {
   color: #d9dcd6;
 }
-*/
 
 .header nav {
   display: flex; /* added */
-  /* commenting out for test 
   padding-top: 15px;
-  margin-right: 20px; 
-  */
+  margin-right: 20px;
+
   justify-content: flex-end; /* added this */
   align-items: center; /* added this */
   float: right;

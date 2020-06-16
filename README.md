@@ -23,6 +23,7 @@ THEN I find a concise, descriptive title
 [] resolve id's not being in css?
 [] make horiseon title an img?
 [x] correct path for nav css elements
+[x] changed background image to <img> tag and removed from css for accessibility
 
 ## Notes
 
@@ -31,3 +32,4 @@ THEN I find a concise, descriptive title
 - probably need to use flex-box here
 - color being declared multiple times, can i do this all at the beginning?
 - replace px with em's
+- make nav accessible by keyboard
