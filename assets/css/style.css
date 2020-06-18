@@ -134,6 +134,11 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
+/*added*/
+.content img {
+  max-height: 200px;
+}
+/*added*/
 
 .search-engine-optimization {
   margin-bottom: 20px;
@@ -162,6 +167,8 @@ p {
   color: #ffffff;
 }
 
+/*
+
 .search-engine-optimization img {
   max-height: 200px;
 }
@@ -174,6 +181,7 @@ p {
   max-height: 200px;
 }
 
+*/
 .search-engine-optimization h2 {
   margin-bottom: 20px;
   font-size: 36px;

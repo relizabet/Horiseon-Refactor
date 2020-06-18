@@ -1,137 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* end reset */
-
-/* begin consolidated-style.css */
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -142,7 +8,8 @@ body {
   background-color: #d9dcd6;
 }
 
-.header {
+/* added 'header' qualifiers for all header items */
+header.heading {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -150,16 +17,16 @@ body {
   color: #ffffff;
 }
 
-.header h1 {
+header.heading h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-.header h1 .seo {
+header.heading h1 .seo {
   color: #d9dcd6;
 }
 
-.header nav {
+header.heading nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -167,11 +34,11 @@ body {
   font-size: 20px;
 }
 
-.header nav ul {
+header.heading nav ul {
   list-style-type: none;
 }
 
-.header nav ul li {
+header.heading nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -181,35 +48,41 @@ a {
   text-decoration: none;
 }
 
+/* added hover pseudo-class for style */
+a:hover {
+  color: #d9dcd6;
+}
+
 p {
   font-size: 16px;
 }
 
 /* replaced background image with img tag in html for accessibility */
-.hero {
+img.hero {
   height: 800px;
   width: 100%;
   object-fit: cover;
-  margin-bottom: 25px;
+  margin-bottom: 21px;
 }
 
-.float-left {
+img.float-left {
   float: left;
   margin-right: 25px;
 }
 
-.float-right {
+img.float-right {
   float: right;
   margin-left: 25px;
 }
 
-.content {
+/* moved the main content above the aside */
+main.content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-.search-engine-optimization {
+main.content article {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -218,51 +91,17 @@ p {
   color: #ffffff;
 }
 
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.search-engine-optimization img {
+/*consolidated img and h2 styling */
+main.content img {
   max-height: 200px;
 }
 
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+main.content h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-.benefits {
+aside.benefits {
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -271,57 +110,25 @@ p {
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
-}
-
-.benefit-lead {
-  margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-brand {
+aside.benefits article {
   margin-bottom: 32px;
-  color: #ffffff;
 }
 
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
+aside.benefits h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
+aside.benefits img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.footer {
+footer.foot {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -329,6 +136,6 @@ p {
   text-align: center;
 }
 
-.footer h2 {
+footer.foot h2 {
   font-size: 20px;
 }
