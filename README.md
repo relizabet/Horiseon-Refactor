@@ -26,9 +26,10 @@
 
 ## Notes
 
-    * no id's being used in css, but there are id's in the html
-    * site is not set up to be 'scalable'
-    * probably need to use flex-box here
-    * color being declared multiple times, can i do this all at the beginning?
-    * replace px with em's
-    * make nav accessible by keyboard
+- Replaced non-semantic div's with semantic elements wherever possible to improve accessibility
+-
+- Added qualifiers to all css class selectors for more specificity
+- Added an alt attribute to each image
+- Added empty alt attribute for accessibility to logos in the aside
+- Verified all headers used in sequential order
+- Made the Company name the title
