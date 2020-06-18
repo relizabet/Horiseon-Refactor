@@ -24,10 +24,10 @@
     WHEN I view the title element
     THEN I find a concise, descriptive title
 
-## Notes
+## Updates
 
 - Replaced non-semantic div's with semantic elements wherever possible to improve accessibility
--
+- Consolidated repetitive css properties
 - Added qualifiers to all css class selectors for more specificity
 - Added an alt attribute to each image
 - Added empty alt attribute for accessibility to logos in the aside

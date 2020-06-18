@@ -6,6 +6,8 @@
 
 body {
   background-color: #d9dcd6;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffff;
 }
 
 /* added 'header' qualifiers for all header items */
@@ -14,7 +16,6 @@ header.heading {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
-  color: #ffffff;
 }
 
 header.heading h1 {
@@ -30,7 +31,6 @@ header.heading nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
 
@@ -86,9 +86,7 @@ main.content article {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
-  color: #ffffff;
 }
 
 /*consolidated img and h2 styling */
@@ -108,9 +106,7 @@ aside.benefits {
   float: right;
   width: 20%;
   height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
-  color: #ffffff;
 }
 
 aside.benefits article {
