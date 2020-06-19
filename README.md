@@ -36,4 +36,4 @@
 - Added documentation throughout html and css
 
 ## Published Website
-The finished project can be found [here] (https://relizabet.github.io/Horiseon-Refactor/)
+The finished project can be found [here](https://relizabet.github.io/Horiseon-Refactor/)
