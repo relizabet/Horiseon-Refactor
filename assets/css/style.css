@@ -28,7 +28,7 @@ header.heading h1 .seo {
   color: #d9dcd6;
 }
 
-/* font-family removed and added to body */
+/* font-family moved to body */
 header.heading nav {
   padding-top: 15px;
   margin-right: 20px;
