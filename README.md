@@ -34,3 +34,6 @@
 - Verified all headers used in sequential order
 - Made the Company name the title
 - Added documentation throughout html and css
+
+## Published Website
+    The finished project can be found at: https://relizabet.github.io/Horiseon-Refactor/
